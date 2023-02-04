@@ -1,0 +1,108 @@
+/*Responsividade da barra de navegação*/
+@media (max-width:1050px){
+/*Ocultando a barr ade navegação desktop*/
+.lista{
+display: none;
+}
+/*Cabeçalho*/
+#header{
+height: 50px;
+width: 100%;
+font-size: 1.7em;
+}
+
+.titulo{
+margin-top: 5px;
+font-size: 1.3em;
+height: 50px;
+}
+
+/*Ocultando a capa*/
+.capa{
+display: none;
+}
+
+.logo{
+display: flex;
+}
+
+/*Icones dos personagens da barra de navegação*/
+.icone{
+display: inline;
+position: relative;
+top: 10px;
+right: 10px;
+}
+
+/*Configuração do botão de abrir o menu*/
+.menu-button
+{
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 5;
+margin-top: 10px;
+margin-left: 30px;
+border: 3px solid black;
+}
+
+/*Configuração do botão de fechar o menu*/
+.menu-button-close
+{
+display: block;
+position: fixed;
+top: 0;
+right: 0;
+margin-top: 10px;
+z-index: 5;
+margin-left: 20px;
+}
+
+/*Background do menu que sobrepor o site*/
+.overlay{
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.9);
+z-index: 1;
+position: fixed;
+overflow-x: hidden;
+transition: all 0.5s;
+}
+
+.overlay a:hover{
+color: white;
+}
+
+/*Configuração de posição dos itens do menu*/
+.overlay-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+display: block;
+}
+
+
+
+/*Aproximando um item do outro do menu*/
+ul li {
+line-height: 20px;
+list-style: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

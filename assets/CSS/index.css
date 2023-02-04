@@ -1,0 +1,193 @@
+/*Configurações padro~es do documento*/
+*{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+
+}
+
+/*Configurações do corpo do documento*/
+body{
+background-color: #ffffff;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+}
+
+.logo{
+display: none;
+}
+
+/*Configurações do conteudo principal do site*/
+main{
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+margin-top: 40px;
+}
+
+/*Configurações de cada sessão*/
+section{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:center;
+margin: 10px;
+}
+
+/*Configurações de Titulo*/
+h1{
+font-family: Kimberley;
+font-size: 3em;
+text-align: center;
+color: rgb(0, 255, 13);
+}
+
+
+h2{
+font-family: Kimberley;
+text-align: center;
+font-size: 3em;
+color: rgb(238, 255, 0);
+}
+
+
+h3{
+font-family: Kimberley;
+text-align: center;
+font-size: 3em;
+color: rgb(47, 0, 255);
+}
+
+h4{
+font-family: Kimberley;
+text-align: center;
+font-size: 3em;
+color: rgb(167, 4, 182);
+}
+
+h5{
+font-family: Kimberley;
+text-align: center;
+font-size: 3em;
+color: rgb(100, 100, 100);
+}
+h6{
+font-family: Kimberley;
+text-align: center;
+font-size: 3em;
+color: rgb(0, 140, 255);
+}
+
+.fim{
+font-family: Kimberley;
+text-align: center;
+font-size: 4em;
+color: rgb(255, 0, 0);
+margin: 20px 0;
+}
+
+
+
+
+/*Configurações de texto*/
+p{
+font-family: 'Teko', sans-serif;
+font-size: 2.5em;
+margin: 0 40px;
+line-height: 45px;
+text-align: center;
+color: rgb(0, 0, 0);
+overflow-y: hidden;
+}
+
+/*Configurações de imagens*/
+.iniciais img{
+margin: 10px;
+width: 500px;
+}
+
+#border-img{
+border: 3px solid black;
+}
+
+
+
+
+/*Configurações de video*/
+.video{
+border: 3px solid rgb(0, 0, 0);
+}
+
+/*Configurações das Musicas*/
+.musicas
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.musicas-margin{
+margin-bottom: 20px;
+}
+
+/*Rodape*/
+footer{
+width: 100%;
+height: 170px;
+background-color: rgb(0, 255, 21);
+animation: infinite ease-in;
+animation-name: change-color;
+animation-duration: 10s;
+}
+
+/*Animação de mudança de cor*/
+@keyframes change-color{
+0% {background-color: rgb(0, 255, 21);}
+15% {background-color: yellow;}
+35% {background-color: blue;}
+40% {background-color: blueviolet;}
+50% {background-color: rgb(129, 128, 128);}
+60% {background-color: rgb(0, 217, 255);}
+80% {background-color: rgb(255, 0, 0);}
+100% {background-color: rgb(0, 255, 21);}
+}
+
+/*Configuração do texto*/
+.footer{
+font-family: Kimberley;
+font-size: 2.5em;
+text-align: center;
+color: rgb(0, 0, 0);
+margin-top: 30px;
+}
+
+.content-redes-sociais 
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+}
+
+.mini-buttons
+{
+display: flex;
+flex-direction: row;
+margin: 0 20px;
+margin-bottom: 10px;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+
+
+
+

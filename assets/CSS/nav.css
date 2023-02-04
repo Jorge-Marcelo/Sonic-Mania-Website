@@ -1,0 +1,111 @@
+/*Configuração do cabeçalho */
+#header{
+height: 50px;
+width: 100%;
+font-family: Kimberley;
+font-size: 1.5em;
+position: fixed;
+top: 0;
+background: white;
+border-bottom: 3px solid black;
+}
+
+/*Navegação*/
+nav{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+z-index: 100;
+
+}
+
+/*Display none para ocultar a barra de navegação responsiva*/
+ul{
+display: none;
+}
+
+/*Configuração da lista e dos itens da lista*/
+ul li{
+padding: 10px;
+}
+
+ul li a{
+text-decoration: none;
+color: black;
+}
+
+/*Configuração do hover da lista*/
+ul li a:hover{
+color: rgb(0, 0, 0);
+}
+
+
+/*cor dos itens do menus*/
+.item-menu-green{
+color: rgb(3, 196, 3);
+}
+
+.item-menu-yellow{
+color: rgb(255, 196, 0);
+}
+
+.item-menu-blue{
+color: blue;
+}
+
+.item-menu-blueviolet{
+color: blueviolet;
+}
+
+.item-menu-gary{
+color: gray;
+}
+
+.item-menu-blue2{
+color: rgb(0, 162, 255);
+}
+
+
+.item-menu-red{
+color: red;
+}
+
+
+
+
+/*Ocultando o Botão da barra de navegação Mobile*/
+.menu-button{
+display: none;
+}
+
+/*Botã0 de fechar*/
+.menu-button-close
+{
+display: none;
+}
+
+
+/*Configuração da lista desktop*/
+.lista{
+display: flex;
+justify-content: center;
+}
+
+#item-lista{
+padding: 10px;
+}
+
+
+
+#item-lista:hover{
+color: white;
+}
+
+/*Capa do cabeçalho*/
+.capa{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
