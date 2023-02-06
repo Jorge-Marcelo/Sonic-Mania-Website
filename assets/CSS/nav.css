@@ -8,6 +8,7 @@ position: fixed;
 top: 0;
 background: white;
 border-bottom: 3px solid black;
+overflow-y: hidden;
 }
 
 /*Navegação*/
