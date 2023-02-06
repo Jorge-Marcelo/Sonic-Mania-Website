@@ -175,14 +175,14 @@ height: 290px;
 /*Nomes de Personagens*/
 
 .sonic{
-font-family: Kimberley;
+font-family: 'Anton', sans-serif;
 font-size: 3em;
 text-align: center;
 color: rgb(38, 0, 255);
 }
 
 .tails{
-font-family: Kimberley;
+font-family: 'Anton', sans-serif;
 font-size: 3em;
 text-align: center;
 color: rgb(255, 208, 0);
@@ -190,7 +190,7 @@ margin: 10px 0;
 }
 
 .knuckles{
-font-family: Kimberley;
+font-family: 'Anton', sans-serif;
 font-size: 3em;
 text-align: center;
 color: rgb(255, 0, 0);
@@ -198,7 +198,7 @@ margin: 10px 0;
 }
 
 .might{
-font-family: Kimberley;
+font-family: 'Anton', sans-serif;
 font-size: 3em;
 text-align: center;
 color: rgb(255, 0, 0);
@@ -215,40 +215,22 @@ color: rgb(255, 230, 0);
 /*Responsividade dos  nomes dos personagens*/
 @media (max-width:630px){
 .sonic{
-font-family: Kimberley;
 font-size:  1.8em;
-text-align: center;
-color: rgb(38, 0, 255);
 }
 
 .tails{
-font-family: Kimberley;
 font-size: 1.8em;
-text-align: center;
-color: rgb(255, 208, 0);
-margin: 10px 0;
 }
 
 .knuckles{
-font-family: Kimberley;
 font-size:  1.8em;
-text-align: center;
-color: rgb(255, 0, 0);
-margin: 10px 0;
 }
 
 .might{
-font-family: Kimberley;
 font-size:  1.8em;
-text-align: center;
-color: rgb(255, 0, 0);
-margin: 10px 0;
 }
 
 .ray{
-font-family: Kimberley;
 font-size:  1.8em;
-text-align: center;
-color: rgb(255, 230, 0);
 }
 }

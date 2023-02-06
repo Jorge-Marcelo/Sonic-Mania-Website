@@ -20,17 +20,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
 
-<style type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
-/*Adicionndo Fontes direto dos arquivos do projeto*/
-@font-face{
-font-family: Kimberley;
-src: url('assets/Fontes/kimberley\ bl.ttf');
-font-family: NiseSegaSonic;
-src: url('assets/Fontes/NiseSegaSonic.TTF');
-}
-
-</style>
     
 </head>
 <body>
@@ -52,18 +45,18 @@ src: url('assets/Fontes/NiseSegaSonic.TTF');
 
 <!--Barra de navegação responsiva-->
 <nav class="overlay" id="myNav">
-<a href="javascript:void(0)"  onclick="closeNav()"><img src="assets/Imagens/nav/close.png" class="menu-button-close"></a>
+<a href="javascript:void(0)"  onclick="closeNav()"><img src="assets/Imagens/nav/close.png" id="menu-button-close"></a>
 
 
 
 <ul class="overlay-content">
-<li><a href="#home" class="item-menu-green"><span><img src="assets/Imagens/nav/1 - home.png" class="icone"></span>HOME</a></li>
-<li><a href="#sobre" class="item-menu-yellow"><span><img src="assets/Imagens/nav/2 - sobre.png" class="icone"></span>SOBRE O JOGO</a></li>
-<li><a href="#inicio" class="item-menu-blue"><span><img src="assets/Imagens/nav/3 - inicio.png" class="icone"></span>INICIO DO JOGO</a></li>
-<li><a href="#personagens" class="item-menu-blueviolet"><span><img src="assets/Imagens/nav/4 - personagens.png" class="icone"></span>PERSONAGEM</a></li>
-<li><a href="#fases" class="item-menu-gary"><span><img src="assets/Imagens/nav/5 - fases.png" class="icone"></span>FASES</a></li>
-<li><a href="#musicas" class="item-menu-blue2"><span><img src="assets/Imagens/nav/6 - musicas.png" class="icone"></span>MUSICAS</a></li>
-<li><a href="#fim" class="item-menu-red"+><span><img src="assets/Imagens/nav/7 - fim.png" class="icone"></span>FIM</a></li>
+<li><a href="#home" class="item-menu-green" onclick="closeNav()"><span><img src="assets/Imagens/nav/1 - home.png" class="icone"></span>HOME</a></li>
+<li><a href="#sobre" class="item-menu-yellow" onclick="closeNav()"><span><img src="assets/Imagens/nav/2 - sobre.png" class="icone"></span>SOBRE O JOGO</a></li>
+<li><a href="#inicio" class="item-menu-blue" onclick="closeNav()"><span><img src="assets/Imagens/nav/3 - inicio.png" class="icone"></span>INICIO DO JOGO</a></li>
+<li><a href="#personagens" class="item-menu-blueviolet" onclick="closeNav()"><span><img src="assets/Imagens/nav/4 - personagens.png" class="icone"></span>PERSONAGEM</a></li>
+<li><a href="#fases" class="item-menu-gary" onclick="closeNav()"><span><img src="assets/Imagens/nav/5 - fases.png" class="icone"></span>FASES</a></li>
+<li><a href="#musicas" class="item-menu-blue2" onclick="closeNav()"><span><img src="assets/Imagens/nav/6 - musicas.png" class="icone"></span>MUSICAS</a></li>
+<li><a href="#fim" class="item-menu-red" onclick="closeNav()"><span><img src="assets/Imagens/nav/7 - fim.png" class="icone"></span>FIM</a></li>
 </ul>
 </nav>
 <a href="javascript:void(0)"  onclick="openNav()"><img src="assets/Imagens/nav/open.png" class="menu-button"></a>
@@ -76,7 +69,7 @@ src: url('assets/Fontes/NiseSegaSonic.TTF');
 
 <!------------------------------------------------------------------------------------------------------------->
 
-<main>
+<main id="home">
 
 <!--Conteudo principal-->
 
@@ -87,7 +80,7 @@ src: url('assets/Fontes/NiseSegaSonic.TTF');
 </section>
 
 <section>   
-<h1 id="home">FEITO PELA MANIA PARA A MANIA</h1>
+<h1>FEITO PELA MANIA PARA A MANIA</h1>
 </section> 
 
 <!--Imagens-->
@@ -103,8 +96,8 @@ src: url('assets/Fontes/NiseSegaSonic.TTF');
 <img src="assets/Imagens/Iniciais/06.png" id="border-img">
 </section>
 
-<section>
-<h2 id="sobre">SOBRE O JOGO</h2>
+<section id="sobre">
+<h2>SOBRE O JOGO</h2>
 </section>
 
 
@@ -119,8 +112,8 @@ sucessor dos mesmos e também sequencia
 </p>
 </section>
 
-<section>
-<h3 id="inicio">INICIO O JOGO</h3>
+<section id="inicio">
+<h3>INICIO O JOGO</h3>
 </section>
 
 <section>
@@ -179,8 +172,8 @@ width="710" height="400" src="assets/Videos/Sonic Mania .m4v">
 </main>
 
 <!--Slider de Imagens -->
-<section>
-<h4 id="personagens">PERSONAGENS</h4>
+<section id="personagens">
+<h4>PERSONAGENS</h4>
 </section>
 
 
@@ -240,8 +233,8 @@ width="710" height="400" src="assets/Videos/Sonic Mania .m4v">
 
 
 
-<section>
-<h5 id="fases">FASES</h5>
+<section id="fases">
+<h5>FASES</h5>
 </section>
 
 
@@ -321,8 +314,8 @@ width="710" height="400" src="assets/Videos/Sonic Mania .m4v">
 <!--------------------------------------------------------------------------------------------------------------------------->
 
 <!--Musicas do Jogo-->
-<section>
-<h6 id="musicas">MUSICAS</h6>
+<section id="musicas">
+<h6>MUSICAS</h6>
 </section>
 
 
@@ -755,7 +748,7 @@ class="musicas-margin">
 <!--------------------------------------------------------------------------------------------------------------------------->
 
 <!--Rodapé do site-->
-<h1 class="fim" id="fim">FIM</h1>
+<h1 class="fim">FIM</h1>
 <footer>
 <p class="footer">FEITO POR JORGE MARCELO</p>
 <div class="content-redes-sociais">
@@ -771,7 +764,7 @@ class="mini-buttons"><img src="assets/Imagens/Rodape/Github.png"></a>
 <a href="https://www.linkedin.com/in/jorge-marcelo-067a5017b/" target="_blank"
 class="mini-buttons"><img src="assets/Imagens/Rodape/Linkedin.png"></a>
 </div>
-></footer>
+</footer id="fim">
 
 <!--------------------------------------------------------------------------------------------------------------------------->
 
